@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Local Only Salesforce Commerce Cloud (SFCC) Storefront Basic Auth Autofill",
+    "version": "1.0",
+    "permission": ["webRequest", "webRequestauthProvider"],
+    "host_permissions": [
+        "*://your-sig-domain.example.com/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
